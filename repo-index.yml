@@ -1205,6 +1205,27 @@ plugins:
   updated: 2017-09-22T00:00:00Z
   version: 1.2.1
 - authors:
+  - contact: gemfire-manageability@pivotal.io
+    homepage: https://plugins.cloudfoundry.org/
+    name: cloudcache-management
+  binaries:
+  - checksum: 9b141cd219a9b71a70a525eb19bb12a9
+    platform: osx
+    url: https://github.com/gemfire/cloudcache-management-cf-plugin/blob/develop/releases/osx/pcc
+  - checksum: 3c1f64d7e46cabc9b45ba7fcd3aee6f2
+    platform: win64
+    url: https://github.com/gemfire/cloudcache-management-cf-plugin/blob/develop/releases/win64/pcc
+  - checksum: 22f2a513ebf300b18e6486db14e803ad
+    platform: linux64
+    url: https://github.com/gemfire/cloudcache-management-cf-plugin/blob/develop/releases/linux64/pcc
+  company: Pivotal
+  created: 2019-08-16T00:00:00Z
+  description: This plugin allows users to interact with Pivotal Cloud Cache endpoints
+  homepage: https://github.com/gemfire/cloudcache-management-cf-plugin
+  name: pcc
+  updated: 2019-08-16T00:00:00Z
+  version: 1.0.0
+- authors:
   - contact: constantin.jaeck@gmail.com
     homepage: https://github.com/jaecktec
     name: Constantin Jaeck
